@@ -1,0 +1,101 @@
+html {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1.5rem;
+}
+
+.mission {
+  display: flex;
+  padding-top: 15px;
+  Height: 300px;
+  margin: auto;
+  background-image: url("./images/banner-landingpage.jpg");
+}
+
+.mission .content {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.portfolio {
+  min-height: 500px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.language h4 {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.language img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 5px;
+  height: auto;
+  border: 2px solid #555;
+}
+
+.team {
+  display: block;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.team .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px;
+  margin: auto;
+  padding: 1rem 5%;
+}
